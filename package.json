@@ -2,10 +2,14 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
+    "test": "jest",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "dependencies": {
     "expo": "~37.0.3",
@@ -20,6 +24,9 @@
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.17",
     "babel-preset-expo": "~8.1.0",
+    "codelyzer": "^5.2.2",
+    "jest": "^25.4.0",
+    "tslint": "^6.1.1",
     "typescript": "~3.8.3"
   },
   "private": true
