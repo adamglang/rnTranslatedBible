@@ -9,7 +9,12 @@
     "eject": "expo eject"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   },
   "dependencies": {
     "expo": "~37.0.3",
